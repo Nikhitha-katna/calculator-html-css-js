@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
 
-//Define function to calculate based on button clicked.
+// function to calculate based on button clicked.
 const calculate = (btnValue) => {
   display.focus();
   if (btnValue === "=" && output !== "") {
